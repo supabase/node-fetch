@@ -22,10 +22,7 @@
         "report": "cross-env BABEL_ENV=coverage nyc --reporter lcov --reporter text mocha -R spec test/test.js",
         "coverage": "cross-env BABEL_ENV=coverage nyc --reporter json --reporter text mocha -R spec test/test.js && codecov -f coverage/coverage-final.json"
     },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/supabase/node-fetch.git"
-    },
+    "repository": "supabase/node-fetch",
     "keywords": [
         "fetch",
         "http",
