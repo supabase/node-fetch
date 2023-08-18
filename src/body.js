@@ -11,7 +11,6 @@ import Blob, { BUFFER } from './blob.js';
 import FetchError from './fetch-error.js';
 
 let convert;
-try { convert = require('encoding').convert; } catch(e) {}
 
 const INTERNALS = Symbol('Body internals');
 
