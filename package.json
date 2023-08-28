@@ -5,7 +5,6 @@
     "description": "A light-weight module that brings window.fetch to node.js",
     "main": "lib/index.js",
     "browser": "./browser.js",
-    "module": "lib/index.mjs",
     "files": [
         "lib/index.js",
         "lib/index.mjs",
