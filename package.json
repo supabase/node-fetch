@@ -12,7 +12,7 @@
         "browser.js"
     ],
     "engines": {
-        "node": "4.x || >=6.0.0"
+        "node": ">=18.0.0"
     },
     "scripts": {
         "build": "cross-env BABEL_ENV=rollup rollup -c",
@@ -34,7 +34,7 @@
     },
     "homepage": "https://github.com/supabase/node-fetch",
     "dependencies": {
-        "whatwg-url": "^5.0.0"
+        "whatwg-url": "^14.1.0"
     },
     "devDependencies": {
         "@ungap/url-search-params": "^0.1.2",
